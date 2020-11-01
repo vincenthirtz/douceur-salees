@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dda3a80dc3fb45b22196deff3c7dd4d",
+    "content-hash": "bd54a93ddc6369fda3cfd3949c29bb61",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -239,16 +239,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "dev-master",
+            "version": "7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "25486bffcf6fcdb0aceae5a51c31e8f4b2c13c5f"
+                "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/25486bffcf6fcdb0aceae5a51c31e8f4b2c13c5f",
-                "reference": "25486bffcf6fcdb0aceae5a51c31e8f4b2c13c5f",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0aa74dfb41ae110835923ef10a9d803a22d50e79",
+                "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,6 @@
                 "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -318,7 +317,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/master"
+                "source": "https://github.com/guzzle/guzzle/tree/7.2.0"
             },
             "funding": [
                 {
@@ -338,7 +337,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-25T22:25:00+00:00"
+            "time": "2020-10-10T11:47:56+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1695,17 +1694,9 @@
             "time": "2020-10-23T02:01:07+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "guzzlehttp/guzzle",
-            "version": "9999999-dev",
-            "alias": "5.3.0",
-            "alias_normalized": "5.3.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "guzzlehttp/guzzle": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
