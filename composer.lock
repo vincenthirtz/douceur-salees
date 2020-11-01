@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd54a93ddc6369fda3cfd3949c29bb61",
+    "content-hash": "df0fae288446a02bfc8fc48a6b49cac8",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1302,24 +1302,6 @@
                 }
             ],
             "time": "2020-07-14T19:04:52+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/mailjet-for-wordpress",
-            "version": "5.2.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/mailjet-for-wordpress/",
-                "reference": "tags/5.2.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailjet-for-wordpress.5.2.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mailjet-for-wordpress/"
         }
     ],
     "packages-dev": [

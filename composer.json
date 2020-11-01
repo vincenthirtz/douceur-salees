@@ -32,7 +32,6 @@
   "require": {
     "php": ">=7.1",
     "composer/installers": "^1.7",
-    "wpackagist-plugin/mailjet-for-wordpress": "5.2.4",
     "humanmade/s3-uploads": "~2.2",
     "oscarotero/env": "^1.2.0",
     "roots/wordpress": "5.3.3",
