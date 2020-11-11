@@ -37,7 +37,8 @@
     "roots/wordpress": "5.3.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "vlucas/phpdotenv": "^3.4.0"
+    "vlucas/phpdotenv": "^3.4.0",
+    "wpackagist-theme/oceanwp": "1.9.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
