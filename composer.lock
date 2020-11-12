@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e449496a14cebcd243bb8fd094479aa",
+    "content-hash": "d132f2fae4e79c3289d2c77d0058102f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -839,15 +839,15 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.3.3",
+            "version": "5.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.3.3"
+                "reference": "5.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.3.3"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.5.3"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -882,11 +882,15 @@
             },
             "funding": [
                 {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                },
+                {
                     "url": "https://www.patreon.com/rootsdev",
                     "type": "patreon"
                 }
             ],
-            "time": "2020-04-29T18:50:09+00:00"
+            "time": "2020-10-30T20:40:02+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -1329,12 +1333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e440567339d5fe93d9525e377c5e686b0b08bcca"
+                "reference": "739cebd6c58ef0ea1fc52e03fb3be4f3726be346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e440567339d5fe93d9525e377c5e686b0b08bcca",
-                "reference": "e440567339d5fe93d9525e377c5e686b0b08bcca",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/739cebd6c58ef0ea1fc52e03fb3be4f3726be346",
+                "reference": "739cebd6c58ef0ea1fc52e03fb3be4f3726be346",
                 "shasum": ""
             },
             "conflict": {
@@ -1469,6 +1473,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "pimcore/pimcore": "<6.3",
+                "pocketmine/pocketmine-mp": "<3.15.4",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
                 "prestashop/contactform": ">1.0.1,<4.3",
                 "prestashop/gamification": "<2.3.2",
@@ -1636,7 +1641,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-07T16:07:08+00:00"
+            "time": "2020-11-11T22:01:54+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
